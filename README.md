@@ -23,11 +23,13 @@ Make sure you have Python installed (Termux: `pkg install python`)
 
 ### 2. Set environment variables
 Before running the bot, set these environment variables with your Twilio credentials:
-  
-`export TWILIO_ACCOUNT_SID=your_account_sid
+
+`
+export TWILIO_ACCOUNT_SID=your_account_sid
 export TWILIO_AUTH_TOKEN=your_auth_token
 export TWILIO_FROM_NUMBER=+1xxxxxxxxxx
-export TWILIO_TO_NUMBER=+1xxxxxxxxxx`
+export TWILIO_TO_NUMBER=+1xxxxxxxxxx
+`
 > Replace the numbers with your actual Twilio and customer phone numbers.
 
 ### 3. Run the Bot
