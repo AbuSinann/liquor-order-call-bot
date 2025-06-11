@@ -36,3 +36,6 @@ export TWILIO_TO_NUMBER=+1xxxxxxxxxx
 
 `bot.py`
 >The bot will stay running and automatically call the customer at 9:00 AM on the last day of each month.
+
+### 📋 Example Message
+> “Hello. This is a liquor order call for account number 48761. Please process our monthly order. Thank you.”
