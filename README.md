@@ -31,7 +31,7 @@ export TWILIO_FROM_NUMBER=+1xxxxxxxxxx
 export TWILIO_TO_NUMBER=+1xxxxxxxxxx
 `
 > Replace the numbers with your actual Twilio and customer phone numbers.
-
+---
 ### 3. Run the Bot
 
 `bot.py`
@@ -39,3 +39,19 @@ export TWILIO_TO_NUMBER=+1xxxxxxxxxx
 
 ### 📋 Example Message
 > “Hello. This is a liquor order call for account number 48761. Please process our monthly order. Thank you.”
+
+---
+
+### ⚠️ Important Notes
+
+• Ensure your Twilio number is voice-enabled.
+
+• If you run on Android via Termux, keep the session alive using `termux-wake-lock` or tools like Termux:Boot.
+
+• This is a basic implementation for one number. You can extend it for multiple calls or advanced IVR flows.
+
+---
+
+### ✅ License
+
+>Let me know if you want this auto-uploaded to your GitHub repo or want help customizing the message or expanding to multiple customers.
