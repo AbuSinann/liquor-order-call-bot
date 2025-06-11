@@ -19,21 +19,18 @@ This Python bot automatically calls **one customer** every month at **9:00 AM on
 ### 1. Install Python dependencies
 Make sure you have Python installed (Termux: `pkg install python`)
 
-```bash
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ### 2. Set environment variables
 Before running the bot, set these environment variables with your Twilio credentials:
   
-```bash
-export TWILIO_ACCOUNT_SID=your_account_sid
+`export TWILIO_ACCOUNT_SID=your_account_sid
 export TWILIO_AUTH_TOKEN=your_auth_token
 export TWILIO_FROM_NUMBER=+1xxxxxxxxxx
-export TWILIO_TO_NUMBER=+1xxxxxxxxxx
+export TWILIO_TO_NUMBER=+1xxxxxxxxxx`
 > Replace the numbers with your actual Twilio and customer phone numbers.
 
 ### 3. Run the Bot
 
-```bash
-bot.py
+`bot.py`
 >The bot will stay running and automatically call the customer at 9:00 AM on the last day of each month.
